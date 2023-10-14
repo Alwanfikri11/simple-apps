@@ -11,7 +11,7 @@ services:
       - app-data:/apps/public/images
 
   db:
-    image: "mariabd"
+    image: "mariadb"
     restart: always
     links: 
       - phpmyadmin
