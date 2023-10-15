@@ -11,14 +11,13 @@ pipeline {
               echo "Build Apps"
             }
         }
-    }
 
-     stages {
         stage('Test Apps') {
             steps {
               echo "Test Apps"
             }
         }
     }
+    
 }
 
