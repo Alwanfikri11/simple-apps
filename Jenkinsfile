@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Build Apps') {
             steps {
-              echo "Build Apps"
+              sh "cd apps"
+              sh "npm install"
             }
         }
 
