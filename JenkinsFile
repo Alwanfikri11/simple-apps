@@ -6,9 +6,9 @@ pipeline {
     }
 
     stages {
-        stage('Build Apss') {
+        stage('Build Apps') {
             steps {
-              echo "Build Apss" 
+              echo "Build Apps"
             }
         }
     }
