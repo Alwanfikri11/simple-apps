@@ -17,6 +17,7 @@ pipeline {
         stage('Test Apps') {
             steps {
               sh '''cd apps
+              cp /root/simple-apps/apps/.env .
               npm test
               '''
             }
