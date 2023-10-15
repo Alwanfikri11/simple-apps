@@ -38,7 +38,7 @@ pipeline {
 
         stage('Build Image') {
             steps {
-              ssh '''
+              sh '''
               docker compose build
               '''
             }
