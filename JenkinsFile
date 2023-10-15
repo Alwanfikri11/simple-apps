@@ -1,0 +1,15 @@
+pipeline {
+    agent {
+        node {
+            label 'server1-fikri'
+        }
+    }
+
+    stages {
+        stage('Build Apss') {
+            steps {
+              echo "Build Apss" 
+            }
+        }
+    }
+}
